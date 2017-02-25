@@ -1,0 +1,290 @@
+body {
+	background-image: url("../images/school.png");
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	position: fixed;
+  	z-index: 99;
+  	width: 100%;
+}
+div.head{
+	width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+div.body {
+	width: 960px;
+	top: 100px;
+	margin: 0 auto;
+	position: relative;
+	clear: both;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 15px;
+/*	display: inline-block;
+*/	color: #ffffff;
+	margin-top:1px;
+  	margin-bottom: 1px; 
+	float: left;
+}
+
+nav {
+	float: right;
+	vertical-align: middle; /*why this code doesn't work?*/
+	margin-top: 25px;
+}
+
+nav a {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+	border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 15px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 15px;	
+}
+
+
+footer {
+	color: #ffffff;
+	background-color: #666666; 
+	padding: 8px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	clear: both;
+	border-top: 5px solid #4aaaa5;
+	z-index: 99;
+	position: relative;
+}
+
+section {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 608px;
+	float: left;
+	padding: 20px;
+	margin-right: 20px;	
+	margin-bottom: 130px;
+}
+
+aside {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	width: 228px;
+	float: right;
+	padding: 20px;
+	margin-left: 20px;	
+}
+
+.iconlink img {
+	margin-top: 8px;
+    margin-right: 15px;
+}
+
+.iconimg {
+	width: 50px;
+    height: 50px;
+}
+
+#april {
+	width: 20%;
+	height: 20%;
+	float: left;
+	margin-right: 5px;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding-left: 5px;
+	line-height: 2;
+}
+
+.pic {
+  position: relative;
+  width: 274px;
+  float: left;
+  margin: 20px 0 25px;
+}
+
+.pic:nth-child(even) {
+  margin-right: 40px;
+}
+
+.pic img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
+}
+
+.pic h4 {
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+label {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 10px 0; 
+}
+
+button {
+	background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 980px) {
+body {
+	background-image: url("../images/sakura.png");
+}
+header {
+	width: 100%;
+}
+div.head{
+	width: 100%;
+}
+div.body {
+	width: 768px;
+}
+section {
+	width: 480px;
+	margin-right: 10px;	
+}
+aside {
+	width: 182px;
+	margin-left: 10px;	
+}
+}
+
+
+@media screen and (max-width: 768px) {
+body {
+	background-image: url("../images/restaurant.png");
+}
+div.body {
+	width: 640px;
+}
+section {
+	width: 380px;
+}
+aside {
+	width: 136px;
+}
+
+.iconlink img {
+	margin-right: 10px;
+}
+.iconimg {
+	width: 30px;
+    height: 30px;
+}
+}
+
+
+@media screen and (max-width: 640px) {
+body {
+	background-image: url("../images/weather.png");
+}
+h1 {
+	padding: 10px;
+	font-size: 30px;
+}
+
+nav {
+	margin-top: 20px;
+	float: left;
+}
+
+div.body {
+	width: 600px;
+	margin: 0 auto;
+}
+section {
+	width: 480px;
+	margin: 0 auto;
+}
+aside {
+	width: 480px;
+	float: left;
+	position: block;
+	margin: 30px auto 130px;
+}
+
+.iconlink img {
+	margin-right: 10px;
+}
+.iconimg {
+	width: 50px;
+    height: 50px;
+}
+footer {
+	padding: 1px;
+	border-top: 3px solid #4aaaa5;
+}
+}
+
+
+
+
+
+
+
+   

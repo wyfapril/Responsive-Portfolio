@@ -1,0 +1,79 @@
+header {
+	background-color: #ffffff; 
+	border-color: #cccccc;
+	width: 960px;
+	clear: both;
+	display: block;
+}
+
+h1 {
+	color: white;
+	background: #4aaaa5;
+	font-family: "Georgia", Times, "Times New Roman", serif; 
+	float: left;
+	padding: 20px;
+	display: inline;
+
+}
+
+nav {
+	float: right;
+	display: inline;
+	padding: 5px;
+}
+
+
+img {
+	width: 20%;
+	height: 20%;
+	float: left; 
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, "Times New Roman", serif; 
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, "Times New Roman", serif; 
+}
+
+a {
+	color: #777777;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+	background-color: #666666; 
+	padding: 10px;
+	text-align: center;
+	width: 960px;
+	clear: both;
+}
+
+h5 {
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+div {
+	width: 960px;
+	background-image: url("school.png");
+}
+
+section {
+	float: left;
+	background-color: #ffffff; 
+	border-color: #dddddd;
+	width: 650px;
+}
+
+aside {
+	float: right;
+	width: 270px;
+}
